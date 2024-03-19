@@ -61,8 +61,13 @@
     .hero-about-text{
         max-width: 100%;
     }
+
+    .hero-about-icons{
+        align-items: center;
+        justify-content: center;
+    }
     
-    .about img{
+    .hero-about-img {
         display: none;
     }
 }
