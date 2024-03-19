@@ -30,10 +30,10 @@ export function Header(){
           </div>
 
           <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-            <li><Link>Sobre mim</Link></li>
-            <li><Link>Serviços</Link></li>
-            <li><Link>Projetos</Link></li>
-            <li><Link>Tecnologias</Link></li>
+            <li><Link to='#'>Sobre mim</Link></li>
+            <li><Link to='#'>Serviços</Link></li>
+            <li><Link to='#'>Projetos</Link></li>
+            <li><Link to='#'>Tecnologias</Link></li>
           </ul>
 
         </div>

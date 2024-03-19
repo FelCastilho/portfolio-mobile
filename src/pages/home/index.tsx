@@ -19,9 +19,9 @@ export default function Home() {
 
                 <div className="container-btn-profile">
 
-                    <Link href="https://drive.google.com/file/d/1akpwdUVIHFw9pO4ZrrQQ-8Bc2S1fFkPT/view?usp=sharing" target="_blank" className="btn-curriculo"> <FaLink size={20} /> Meu Currículo</Link>
+                    <Link to='#' className="btn-curriculo"> <FaLink size={20} /> Meu Currículo</Link>
 
-                    <Link href="certificados/certificados.html" target="_blank" className="btn-certificados">  <PiCertificate size={20}/> Certificados</Link>
+                    <Link to='#'className="btn-certificados">  <PiCertificate size={20}/> Certificados</Link>
 
                 </div>
 
