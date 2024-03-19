@@ -79,6 +79,36 @@ p:not(:first-child) {
     font-family: 'Sora', sans-serif;
 }
 
+.about{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Sora', sans-serif;
+}
+
+.container-about{
+    background-color: #181818;
+    border-radius: 15px;
+    height: 60vh;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero-about-text{
+    max-width: 40%;
+}
+
+.hero-about-icons{
+    margin-top: 20px;
+    display: flex;
+    gap: 24px;
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 768px){
 
     .profile{

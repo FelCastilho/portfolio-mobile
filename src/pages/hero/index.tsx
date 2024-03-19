@@ -1,4 +1,4 @@
-import '../home/styles.css'
+import '../hero/styles.css'
 
 import { FaLink } from "react-icons/fa6";
 import { PiCertificate } from "react-icons/pi";
@@ -6,9 +6,10 @@ import { PiCertificate } from "react-icons/pi";
 import iconHero from '../../assets/hero - img.svg';
 import { Link } from "react-router-dom";
 
-export default function Home() {
-    return (
 
+export function Hero() {
+    return (
+    
         <section className="profile">
 
             <div className="profile-text">
@@ -21,7 +22,7 @@ export default function Home() {
 
                     <Link to='#' className="btn-curriculo"> <FaLink size={20} /> Meu Currículo</Link>
 
-                    <Link to='#'className="btn-certificados">  <PiCertificate size={20}/> Certificados</Link>
+                    <Link to='#' className="btn-certificados">  <PiCertificate size={20} /> Certificados</Link>
 
                 </div>
 
@@ -32,5 +33,6 @@ export default function Home() {
             </div>
 
         </section>
+
     )
 }
