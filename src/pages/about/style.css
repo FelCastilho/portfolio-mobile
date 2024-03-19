@@ -62,7 +62,7 @@
         max-width: 100%;
     }
     
-    img{
+    .about img{
         display: none;
     }
 }
