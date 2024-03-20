@@ -15,7 +15,7 @@
     color: #fff;
 }
 
-h1{
+.profile h1{
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: 3rem;
@@ -23,7 +23,7 @@ h1{
     color: #00D1FF;
 }
 
-p:not(:first-child) {
+.profile p:not(:first-child) {
     font-size: 1.7rem;
     letter-spacing: 1.5px;
     margin-bottom: 40px;

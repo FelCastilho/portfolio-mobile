@@ -1,4 +1,4 @@
-import '../hero/styles.css'
+import './styles.css'
 
 import { FaLink } from "react-icons/fa6";
 import { PiCertificate } from "react-icons/pi";

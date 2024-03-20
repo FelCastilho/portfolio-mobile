@@ -1,7 +1,9 @@
+import './App.css'
 import { Header } from './components/header';
 import { Hero } from './pages/hero';
 import { About } from './pages/about';
-import './App.css'
+import { Services } from './pages/services';
+import { Projects } from './pages/projects';
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <Hero />
       <About />
+      <Services />
+      <Projects />
     </>
   );
 }
