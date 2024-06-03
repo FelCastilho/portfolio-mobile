@@ -1,0 +1,158 @@
+.projects {
+    height: 100vh;
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.projects h1 {
+    color: #fff;
+    width: 1000px;
+    font-size: 2rem;
+}
+
+.container-projects {
+    display: flex;
+    gap: 80px;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 200px;
+}
+
+.project-text {
+    margin-top: 20px;
+    background-color: #141414;
+    max-width: 450px;
+    height: 200px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+#banner-void {
+    background-color: #ffff;
+}
+
+#project-void {
+    border-left: 6px solid #ffff;
+}
+
+.span-text-void {
+    color: #ffff;
+}
+
+#banner-alex {
+    background-color: #EBF1FF;
+}
+
+#project-alex {
+    border-left: 6px solid #EBF1FF;
+}
+
+.span-text-alex {
+    color: #EBF1FF;
+}
+
+.btn-visualizar {
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    text-decoration: none;
+    transition: 0.2s all ease-in-out;
+    font-weight: bold;
+}
+
+.btn-visualizar:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #141414;
+    padding: 14px;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .projects {
+        height: 100%;
+        width: 100%;
+        padding-bottom: 100px;
+    }
+
+    .container-projects {
+        display: flex;
+        gap: 80px;
+        width: 100%;
+    }
+
+    .title {
+        margin-top: 100px;
+    }
+
+    .container-projects {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .projects h1 {
+        text-align: center;
+        font-size: 2rem;
+        width: 100%;
+    }
+
+    .project-text {
+        font-size: 0.9rem;
+        margin-top: 20px;
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        color: #fff;
+    }
+
+
+    #project-alex,
+    #project-void {
+        border-left: none;
+    }
+
+    .project-text p {
+        padding: 20px;
+    }
+
+    .project-text br {
+        display: none;
+    }
+
+    .btn-visualizar {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+}
